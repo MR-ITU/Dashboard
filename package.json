@@ -1,6 +1,7 @@
 {
   "name": "interactive",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "Interactive ReactGlobe with markers",
   "keywords": [],
   "main": "src/index.js",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
